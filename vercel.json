@@ -1,11 +1,7 @@
 {
-  # This section tells Vercel how to handle different URLs.
   "rewrites": [
     {
-      # This means "For any incoming URL path..."
       "source": "/(.*)",
-      # "...send the user to my 'index.html' file."
-      # Your React app will then handle the specific path (like /about).
       "destination": "/index.html"
     }
   ]
